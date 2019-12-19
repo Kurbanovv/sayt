@@ -18,7 +18,7 @@ header {
   font-family: "Roboto", sans-serif;
 }
 
-.menu {
+.menu-text {
   list-style: none;
   display: flex;
   width: 500px;
@@ -28,7 +28,7 @@ header {
   justify-content: space-around;
 }
 
-.menu a {
+.menu-text a {
   text-decoration: none;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -62,6 +62,8 @@ header {
   width: 495px;
   height: 72px;
   margin-top: 23px;
+  mix-blend-mode: normal;
+  opacity: 0.7;
 }
 
 .button {
@@ -94,5 +96,63 @@ button {
   margin-left: 187px;
   transform: rotate(270deg);
 }
+.description {
+  width: 596px;
+  height: 48px;
+  margin-top: 269;
+}
+#body {
+  justify-content: center;
+  margin-top: 269px;
+}
 
-@media screen and (max-width: 800);
+#body h1 {
+  font-size: 44px;
+  line-height: 48px;
+  font: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.95px;
+  width: 596px;
+  height: 48px;
+  left: 388px;
+  top: 893px;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+  }
+  .logo {
+    display: none;
+  }
+  #header {
+    flex-direction: column-reverse;
+  }
+  .text-head {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .text-head h1 {
+    width: 100%;
+  }
+  .text-head p {
+    width: 100%;
+  }
+  .head-img {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .head-img img{
+    j
+  }
+  .menu-text {
+    justify-content: space-between;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  button {
+    width: 100%;
+  }
+}
