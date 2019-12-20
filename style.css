@@ -132,7 +132,7 @@ button {
   opacity: 0.5;
 }
 
-#dop {
+.description {
   margin-top: 59px;
   margin-left: 105px;
   width: 148.63px;
@@ -148,7 +148,7 @@ button {
   text-transform: uppercase;
   color: #333333;
 }
-#pod-dop {
+#pod-description {
   width: 533px;
   height: 44px;
   font-size: 14px;
@@ -160,7 +160,7 @@ button {
   opacity: 0.5;
   margin-left: 105px;
 }
-#dop-2 {
+#description-2 {
   margin-top: 30px;
   margin-left: 105px;
   width: 148.63px;
@@ -177,9 +177,95 @@ button {
   color: #333333;
 }
 
+#advantages h1 {
+  width: 596px;
+  height: 48px;
+  font-size: 44px;
+  line-height: 48px;
+  display: flex;
+  margin-left: 400px;
+  letter-spacing: -0.95px;
+  color: #333333;
+  margin-top: 150px;
+}
+
+#advantages p {
+  width: 696px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.advantages-img-1 {
+  width: 100px;
+  height: 100px;
+  margin-top: 68px;
+  margin-left: 105px;
+}
+
+h6 {
+  width: 247px;
+  height: 23px;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  margin-top: 37px;
+  color: #333333;
+}
+#advantages-img-1 {
+  margin-left: 40px;
+}
+
+.advantages-img-2 {
+  width: 100px;
+  height: 100px;
+  margin-top: 68px;
+  margin-left: 100px;
+}
+
+#advantages-img-2 {
+  margin-left: 40px;
+}
+
+.advantages-img-3 {
+  width: 100px;
+  height: 100px;
+  margin-top: 68px;
+  margin-left: 100px;
+}
+
+#advantages-img-3 {
+  margin-left: 40px;
+}
+
+.advantages-after {
+  width: 318px;
+  height: 96px;
+  margin-top: 14px;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 576px) {
-  header {
-  }
   .logo {
     display: none;
   }
