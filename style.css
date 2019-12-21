@@ -180,6 +180,7 @@ button {
 #advantages h1 {
   width: 596px;
   height: 48px;
+  font-family: "Roboto", sans-serif;
   font-size: 44px;
   line-height: 48px;
   display: flex;
@@ -187,6 +188,7 @@ button {
   letter-spacing: -0.95px;
   color: #333333;
   margin-top: 150px;
+  font: 900;
 }
 
 #advantages p {
@@ -254,7 +256,6 @@ h6 {
   width: 318px;
   height: 96px;
   margin-top: 14px;
-  font-family: Proxima Nova;
   font-size: 16px;
   line-height: 24px;
   display: flex;
@@ -263,6 +264,63 @@ h6 {
   color: #333333;
   mix-blend-mode: normal;
   opacity: 0.5;
+}
+
+#stage {
+  width: 596px;
+  font-family: "Roboto", sans-serif;
+  height: 48px;
+  font-size: 44px;
+  line-height: 48px;
+  display: flex;
+  margin-left: 400px;
+  letter-spacing: -0.95px;
+  color: #333333;
+  margin-top: 159px;
+  font: 900;
+}
+.col-xl-4 h1 {
+  width: 149px;
+  height: 67px;
+  margin-top: 70px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 124px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #134cdf;
+  font: 900;
+}
+
+.col-xl-4 p {
+  margin-top: 30px;
+  width: 322px;
+  height: 66px;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+#gallery {
+  width: 596px;
+  font-family: "Roboto", sans-serif;
+  height: 48px;
+  font-size: 44px;
+  line-height: 48px;
+  display: flex;
+  margin-left: 450px;
+  letter-spacing: -0.95px;
+  color: #333333;
+  margin-top: 159px;
+  font: 900;
 }
 
 @media screen and (max-width: 576px) {
